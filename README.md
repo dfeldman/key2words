@@ -16,7 +16,7 @@ The project is based on [Melt](https://github.com/charmbracelet/melt). The only 
 
 1. Make sure you have Go installed on your system.
 2. Clone this repository:
-git clone https://github.com/yourusername/key2words.git
+git clone https://github.com/dfeldman/key2words.git
 3. Change to the project directory:
 cd key2words
 4. Build the program:
