@@ -17,19 +17,10 @@ The project is based on [Melt](https://github.com/charmbracelet/melt). The only 
 1. Make sure you have Go installed on your system.
 2. Clone this repository:
 git clone https://github.com/yourusername/key2words.git
-
-
-Copy code
 3. Change to the project directory:
 cd key2words
-
-
-Copy code
 4. Build the program:
 go build
-
-
-Copy code
 
 ## Usage
 
@@ -38,16 +29,10 @@ Copy code
 To backup an SSH private key and generate a mnemonic phrase, run the following command:
 key2words backup <private_key_file>
 
-
-Copy code
-
 Replace `<private_key_file>` with the path to your SSH private key file.
 
 Example:
 key2words backup ~/.ssh/id_ed25519
-
-
-Copy code
 
 The program will output the generated mnemonic phrase.
 
@@ -56,16 +41,10 @@ The program will output the generated mnemonic phrase.
 To restore an SSH private key from a mnemonic phrase, run the following command:
 key2words restore <mnemonic>
 
-
-Copy code
-
 Replace `<mnemonic>` with the mnemonic phrase you obtained during the backup process.
 
 Example:
 key2words restore "word1 word2 word3 word4 word5 word6 word7 word8 word9 word10 word11 word12"
-
-
-Copy code
 
 The program will restore the private key and save it to the `restored_key` file, along with the corresponding public key in `restored_key.pub`.
 
